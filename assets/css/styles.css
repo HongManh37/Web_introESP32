@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, Arial , sans-serif;
+    scroll-behavior: smooth;
+}
+
+.clear {
+    clear: both;
+}
+  
+.margin-top-16{
+    margin-top: 16px !important;
+}
+/* header */
+#header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between; /* Đẩy 2 item về 2 đầu của hàng */
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: 1px solid #38393A ;
+}
+
+#header > h1 {
+    margin:0 0 10px 60px;
+    line-height: 64px;
+}
+
+#nav {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+#nav > li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+#nav li a {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 46.5px;
+    font-weight: 700;
+    color: #333;
+}
+
+#nav > li:hover >a {
+    color: #fff;
+    background-color: #333;
+}
+/* end: header */
+/* begin: slider */
+#slider{
+    height: 50px;
+    margin-top: 70px;
+    padding-top: 50%;
+    position: relative;
+    background: url(../img/course_10688_image.jpg) top center / cover no-repeat;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 89.5px;
+    color: #fff9fc;
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading{
+    margin: 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-discription{
+    margin: 15px;
+    font-size: 15px;
+}
+/* end:: slider */
+
+/* begin: content */
+
+/* begin: content-overiveiw */
+.content__overiveiw {
+    display: inline-table;
+    background-color: #fff;
+    height: 600px;
+    padding: 0 20px;
+    margin: 0 100px;
+}
+
+.feature-list__item {
+    width: 50%;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin-top: 65px;
+    vertical-align: top;
+}
+
+.item-icon__common {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    max-width: 125px;
+    max-height: 80px;
+    margin-right: 10px;
+}
+
+.item-text__heading{
+    font-size: 22px;
+    margin: 30px 0;
+    font-weight: 600;
+    color:#38393A
+}
+
+.item-text__discription{
+    font-size: 16px;
+    color: #38393A;
+    text-align: justify;
+}
+
+/* end: content__overiveiw */
+
+/* begin:content__product */
+.content__product {
+    height: 600px;
+    position: relative;
+    padding: 80px 20px 0 20px;
+    margin: 0 100px;
+}
+
+.product__title {
+    position: absolute;
+    top: 60px;
+    left: -10px;
+}
+.product__list {
+    margin-top: 32px;
+}
+
+.product__list-item{
+    margin-top: 50px;
+    float: left;
+    width: 33.3333%;
+}
+
+.product__item-img {
+    width: 50%;
+}
+
+.product__item-img:hover{
+    opacity: 0.6;
+}
+
+.product__item-heading{
+    margin: 20px 0;
+}
+
+.product__item-body{
+    padding: 0px 56px;
+}
+
+.product__item-type{
+    list-style-type: none;
+}
+
+.item__type-ESP32SoCs{
+    display: block;
+    margin: 10px 0;
+    color: #0c50cd;
+}
+/* end:content__product */
+
+/* end:content */
+
+/* begin: footer */
+/* end: footer */
